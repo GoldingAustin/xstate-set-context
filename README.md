@@ -1,6 +1,6 @@
 # XState Set Context
 
-A simple but powerful method to update context in XState. This library is modifier version of [store updates in SolidJS](https://www.solidjs.com/docs/latest/api#updating-stores).
+A simple but powerful method to update context in XState. This library is a modified version of [store updates in SolidJS](https://www.solidjs.com/docs/latest/api#updating-stores).
 
 [![NPM](https://nodei.co/npm/xstate-set-context.png)](https://www.npmjs.com/package/xstate-set-context)
 
