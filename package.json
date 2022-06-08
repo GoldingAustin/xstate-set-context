@@ -1,6 +1,6 @@
 {
   "name": "xstate-set-context",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "license": "MIT",
   "sideEffects": false,
   "description": "Simple but powerful XState context update/assign utility",
