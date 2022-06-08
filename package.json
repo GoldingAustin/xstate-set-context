@@ -1,0 +1,58 @@
+{
+  "name": "xstate-set-context",
+  "version": "1.0.1",
+  "license": "MIT",
+  "sideEffects": false,
+  "description": "Simple but powerful XState context update/assign utility",
+  "author": {
+    "name": "Austin Golding",
+    "email": "austin.golding.dev@icloud.com"
+  },
+  "keywords": [
+    "xstate",
+    "state machine",
+    "statechart",
+    "state",
+    "context"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoldingAustin/xstate-set-context"
+  },
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/index.js",
+    "default": "./dist/index.modern.mjs"
+  },
+  "module": "dist/index.modern.module.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle --compress --strict --external xstate",
+    "format": "dprint fmt",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "xstate": "^4"
+  },
+  "peerDependenciesMeta": {
+    "xstate": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "dprint": "^0.29.1",
+    "jest": "^28.1.1",
+    "microbundle": "^0.15.0",
+    "ts-jest": "^28.0.4",
+    "typescript": "^4.7.3",
+    "xstate": "^4.32.1"
+  },
+  "packageManager": "yarn@3.2.1"
+}

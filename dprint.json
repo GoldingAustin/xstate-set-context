@@ -1,0 +1,14 @@
+{
+  "lineWidth": 120,
+  "typescript": {
+    "quoteStyle": "preferSingle",
+    "binaryExpression.operatorPosition": "sameLine"
+  },
+  "includes": ["**/*.{ts}"],
+  "excludes": [
+    "**/node_modules"
+  ],
+  "plugins": [
+    "https://plugins.dprint.dev/typescript-0.69.1.wasm"
+  ]
+}

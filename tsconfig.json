@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "alwaysStrict": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
